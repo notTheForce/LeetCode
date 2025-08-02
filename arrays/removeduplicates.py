@@ -9,4 +9,3 @@ def removeDuplicates(nums: list[int]) -> int:
 
 arr=[1,1,2,2,3,4] 
 print(removeDuplicates(arr))
-
