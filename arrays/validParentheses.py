@@ -19,7 +19,7 @@ def isValid(s: str)->bool:
     for char in s:
         if char in closeToopen:
             if stack and stack[-1]==closeToopen[char]:
-                return True
+                stack.pop()
             else:
                 return False
         else:
