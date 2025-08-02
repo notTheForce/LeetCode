@@ -10,7 +10,7 @@ s="([{}])"
 print(isValid(s))
 
 Doesnt work for s=()[]{} or similar series 
-""""
+"""
 
 #Using stack
 def isValid(s: str)->bool:
